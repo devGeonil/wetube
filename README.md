@@ -1,7 +1,7 @@
 # wetube
 Youtube를 클론 합니다.
 
-- express, babel, nodemon -D
+- express, babel, nodemon -D, morgan, helmet, cookie-parser, pug
 - app -> middleware(req, res, next) -> router
 - GET, POST
   - GET request : url로 접근을 하면 response를 해줘야 한다.
@@ -36,3 +36,8 @@ Youtube를 클론 합니다.
       }
       </code>
     </pre>
+
+- MVC
+  - M : Data
+  - V : View (how look)
+  - C : Controler (function)
