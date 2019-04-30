@@ -13,7 +13,7 @@ const app = express();
 
 //set
 app.set("view engine", "pug");
-
+app.use("/upload", express.static("upload"));
 //middlewares
 app.use(helmet());
 app.use(morgan("dev"));
